@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.background-bg {
+    background:rgba(77, 154, 255, 0.863);
+    background-size:auto;
+
+}
+nav {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.685);
+    padding: 15px;
+}
+.nav-logo {
+    padding: 20px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 0px 1px rgb(16, 0, 104);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.corner-top {
+    float: right;
+    padding: 10px;
+    font-size: 20px;
+}
+.corner-top ul {
+    text-decoration: none;
+}
+.corner-top ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    color: white;
+}
+.corner-top ul li:hover{
+    border-bottom: 1px solid white;
+    transition: .5s;
+}
+.center h1{
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+}
+.product-list {
+    text-align: center;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 5px;
+    
+}
+.img1 {
+    margin: 25px;
+    box-shadow: 0px 0px 20px grey;
+    border-radius: 5px;
+    padding: 20px;
+    background: rgb(255, 255, 255)
+    
+}
+.img1:hover {
+    border-bottom: 3px solid blue;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: .5s linear;
+    box-shadow: 0px 0px 20px rgb(7, 32, 255);
+}
+.center button {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+/*-----LOGIN-----*/
+.login-form {
+    top: 50%;
+    left: 50%;
+    width: 340px;
+    height: 280px;
+    margin-top: -140px;
+    margin-left: -170px;
+    position: fixed;
+    padding: 10px;
+    border-radius: 15px;
+    background: rgba(77, 154, 255, 0.589);
+    box-shadow: 0px 0px 15px rgb(20, 16, 248);
+}
+form {
+    margin: auto;
+    margin-top: 20px;
+    font-size: 50px;
+    color: white;
+    background: transparent;
+}
+.login-fill label {
+    display: inline-block;
+    margin-left: 18px;
+    padding-top: 10px;
+    font-size: 20px;
+    background: transparent;
+}
+.login-fill input {
+    outline: none;
+    padding: 5px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid blue;
+}
+input[type="submit"]
+{
+    padding: 10px;
+    margin-top: 50px;
+    float: right;
+    margin-right: 10px;
+}
